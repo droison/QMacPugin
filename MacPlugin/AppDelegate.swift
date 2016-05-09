@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  MacPlugin
+//  QDaily
 //
-//  Created by song on 16/5/9.
-//  Copyright © 2016年 song. All rights reserved.
+//  Created by song on 4/1/16.
+//  Copyright © 2016 song. All rights reserved.
 //
 
 import Cocoa
@@ -11,6 +11,7 @@ import Cocoa
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
+    @IBOutlet weak var window: NSWindow!
 
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
